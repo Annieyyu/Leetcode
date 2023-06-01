@@ -1,15 +1,13 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Subsets {
+public class LC78_Subsets {
 
     public static void main(String[] args) {
         int[] nums = new int[]{1,2,3};
-        Subsets m = new Subsets();
+        LC78_Subsets m = new LC78_Subsets();
         List<List<Integer>> result = m.subsets(nums);
         System.out.println(result);
-
-
     }
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
